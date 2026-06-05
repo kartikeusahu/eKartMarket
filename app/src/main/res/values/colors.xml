@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mycolor1">#009688</color>
+    <color name="mycolor2">#e8000d</color>
+    <color name="gray">#afa5b0</color>
+    <color name="blue">#28bafc</color>
+    <color name="mycolor5">#FFC107</color>
+    <color name="mycolor6">#dedede</color>
+    <color name="mycolor7">#d2d2dc</color>
+    <color name="mycolor8">#1a1a1a</color>
+    <color name="key">#FFD700</color>
+    <color name="user">#3F51B5</color>
+    <color name="call">#e62e5d</color>
+    <color name="address">	#673AB7</color>
+    <color name="pincode">	#607D8B</color>
+    <color name="home">	#795548</color>
+    <color name="email">	#E53935</color>
+    <color name="pink">	#fabfc8</color>
+    <color name="pinklight">	#f9cfd3</color>
+    <color name="lightpink">	#f9dadc</color>
+    <color name="orange">	#e74d04</color>
+    <color name="orangelight">	#88e74d04</color>
+
+</resources>

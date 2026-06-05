@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Dashboard"
+
+        android:icon="@drawable/dashboard"
+        android:id="@+id/user_adashboard"></item>
+    <item android:title="My Profile"
+        android:icon="@drawable/outline_all_inbox_24"
+        android:id="@+id/user_aprofile"></item>
+
+
+    <item android:title="My Cart"
+        android:icon="@drawable/outline_add_notes_24"
+        android:id="@+id/user_acart"></item>
+
+    <item android:title="Order History"
+        android:icon="@drawable/product"
+        android:id="@+id/user_ahistory"></item>
+
+
+
+    <item android:title="Log Out"
+        android:icon="@drawable/log"
+        android:id="@+id/user_alogout"></item>
+
+</menu>

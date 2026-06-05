@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20sp"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/backtemp2"
+    android:layout_height="match_parent"
+    tools:context=".UserRegistration">
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+  <com.google.android.material.card.MaterialCardView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:cardElevation="5sp"
+      android:padding="20sp"
+
+      android:elevation="10sp"
+      android:layout_margin="10sp"
+      android:backgroundTint="@color/white"
+      app:cardCornerRadius="20sp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/back3"
+        android:padding="20sp">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Register \nNow"
+          android:textColor="@color/black"
+          android:lineHeight="60sp"
+          android:textSize="40sp"
+          android:textStyle="bold"
+          android:textAllCaps="true"
+          >
+
+      </TextView>
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="30sp"
+          android:hint="Name"
+          app:startIconDrawable="@drawable/outline_article_person_24"
+          app:endIconMode="clear_text"
+          app:startIconTint="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:id="@+id/edt_name">
+
+        </com.google.android.material.textfield.TextInputEditText>
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="30sp"
+          android:hint="Mobile No."
+          app:startIconDrawable="@drawable/phone"
+          app:endIconMode="clear_text"
+          app:startIconTint="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:id="@+id/edt_mobno">
+
+        </com.google.android.material.textfield.TextInputEditText>
+      </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="30sp"
+          android:hint="Email Id"
+          app:startIconDrawable="@drawable/email_1_svgrepo_com"
+          app:endIconMode="clear_text"
+          app:startIconTint="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:id="@+id/edt_email">
+
+        </com.google.android.material.textfield.TextInputEditText>
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="30sp"
+          android:hint="Password"
+          app:startIconDrawable="@drawable/key_svgrepo_com"
+          app:endIconMode="password_toggle"
+          app:startIconTint="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:id="@+id/edt_pass">
+
+        </com.google.android.material.textfield.TextInputEditText>
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="30sp"
+          android:hint="Full Address"
+          app:startIconDrawable="@drawable/location"
+          app:endIconMode="clear_text"
+          app:startIconTint="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:inputType="textPostalAddress"
+            android:id="@+id/edt_address">
+
+        </com.google.android.material.textfield.TextInputEditText>
+      </com.google.android.material.textfield.TextInputLayout>
+
+ <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="30sp"
+          android:hint="Land Mark"
+          app:startIconDrawable="@drawable/landmark"
+          app:endIconMode="clear_text"
+          app:startIconTint="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:id="@+id/edt_landmark">
+
+        </com.google.android.material.textfield.TextInputEditText>
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="30sp"
+          android:hint="Pin Code"
+          app:startIconDrawable="@drawable/pin"
+          app:endIconMode="clear_text"
+          app:startIconTint="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:id="@+id/edt_pin">
+
+        </com.google.android.material.textfield.TextInputEditText>
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="30sp"
+          android:hint="House No."
+          app:startIconDrawable="@drawable/outline_add_home_24"
+          app:endIconMode="clear_text"
+          app:startIconTint="@color/black">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:id="@+id/edt_houseno">
+
+        </com.google.android.material.textfield.TextInputEditText>
+      </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+      <com.google.android.material.button.MaterialButton
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="30sp"
+          android:text="Register Now"
+          android:textColor="@color/black"
+          android:id="@+id/btn_register"
+          android:backgroundTint="@color/mycolor5"
+          android:padding="13sp"
+          android:textAllCaps="true">
+
+      </com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+
+  </com.google.android.material.card.MaterialCardView>
+  </ScrollView>
+</LinearLayout>

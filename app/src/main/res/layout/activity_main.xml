@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    android:padding="30sp"
+
+    android:background="@drawable/backtemp2"
+    tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_vertical"
+            android:padding="30sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:lineHeight="40sp"
+                android:text="@string/Welcome_msg"
+                android:textSize="30dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:elevation="50dp"
+                android:layout_marginTop="20sp"
+                android:src="@drawable/girimg">
+
+            </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Your one stop solution for all shopping need"
+                    android:textSize="20sp"
+                    android:fontFamily="cursive"
+                    android:textColor="@color/mycolor1"
+                    android:gravity="center"
+                    android:layout_marginTop="15sp">
+
+                </TextView>
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Admin Login"
+                android:id="@+id/btn_adminlogin"
+                android:textColor="@color/mycolor8"
+                android:backgroundTint="@color/mycolor5"
+                android:layout_marginTop="40dp">
+
+            </com.google.android.material.button.MaterialButton>
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Login"
+                android:id="@+id/btn_userlogin"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/mycolor8"
+                android:layout_marginTop="20dp">
+
+            </com.google.android.material.button.MaterialButton>
+        </LinearLayout>
+
+
+
+</LinearLayout>

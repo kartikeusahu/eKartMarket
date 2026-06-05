@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAllOrder">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_goback"
+            android:background="@color/lightpink"
+            android:src="@drawable/outline_arrow_back_ios_24"
+            android:padding="5sp"
+            android:layout_margin="10sp">
+
+        </ImageButton>
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/pink"
+            android:id="@+id/user_toolbar"
+            android:fitsSystemWindows="true"
+            app:titleTextColor="@color/black"
+            app:subtitle="Welcome, AdminAll Order"
+            app:subtitleTextColor="@color/black"
+            app:title="@string/app_name">
+        </androidx.appcompat.widget.Toolbar>
+
+    </LinearLayout>
+
+</LinearLayout>

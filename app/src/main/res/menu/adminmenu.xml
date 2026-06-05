@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:title="Dashboard"
+    android:icon="@drawable/dashboard"
+    android:id="@+id/menu_adashboard"></item>
+
+    <item android:title="Add Category"
+    android:icon="@drawable/outline_add_notes_24"
+    android:id="@+id/menu_acategory"></item>
+
+    <item android:title="Add Product"
+    android:icon="@drawable/product"
+    android:id="@+id/menu_aproduct"></item>
+
+    <item android:title="Product List"
+    android:icon="@drawable/outline_all_inbox_24"
+    android:id="@+id/menu_aproductlist"></item>
+
+    <item android:title="User List"
+    android:icon="@drawable/user__2_"
+    android:id="@+id/menu_auserlist"></item>
+
+    <item android:title="All Orders"
+    android:icon="@drawable/order"
+    android:id="@+id/menu_aorders"></item>
+
+    <item android:title="Log Out"
+    android:icon="@drawable/log"
+    android:id="@+id/menu_alogout"></item>
+
+</menu>

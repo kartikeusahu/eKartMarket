@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "821093293357",
+    "project_id": "ekartmarket-af046",
+    "storage_bucket": "ekartmarket-af046.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821093293357:android:b0a9f75e050d806f6487a4",
+        "android_client_info": {
+          "package_name": "com.example.ekartmarket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhzyEB3Dm55RBxp4PPyEldC2s6oUd6wIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProductDetails"
+    android:padding="20dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:src="@drawable/lays"
+        android:layout_marginTop="20dp"
+        android:id="@+id/details_productimg">
+
+    </ImageView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:layout_below="@+id/details_productimg">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Lay's Onion Salted Chips"
+                android:gravity="center"
+                android:id="@+id/product_productname"
+                android:textSize="25dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:weightSum="2"
+                android:layout_marginVertical="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="₹20/-"
+                    android:id="@+id/product_selerate"
+                    android:textSize="15dp"
+                    android:layout_weight="1">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50g"
+                    android:id="@+id/product_productsize"
+                    android:textSize="15dp"
+                    android:layout_weight="1"
+                    android:gravity="right">
+                </TextView>
+            </LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/details_productmrp"
+    android:layout_marginTop="10sp"
+    android:text="MRP : ₹30">
+
+</TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lay's is a brand of potato chips owned by Frito-Lay and a subsidiary of PepsiCo, known for its wide variety of flavored and classic potato chips made with fresh potatoes and vegetable oils."
+                android:textSize="22dp"
+                android:id="@+id/product_details"
+                android:layout_marginTop="10sp"
+                >
+
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2">
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="ADD TO CART">
+
+        </Button>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="BUY NOW">
+
+        </Button>
+    </LinearLayout>
+
+</RelativeLayout>
